@@ -77,6 +77,8 @@ gem 'groupdate'
 
 gem 'liquid'
 
+gem 'attr_encrypted', '~> 3.1.0'
+gem 'httparty'
 gem 'sidekiq'
 
 group :development, :test do
@@ -125,4 +127,5 @@ group :test do
   gem 'simplecov',      require: false
   gem 'simplecov-lcov', require: false
   gem 'timecop'
+  gem 'webmock'
 end
